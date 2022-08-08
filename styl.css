@@ -120,6 +120,11 @@ main {
   padding-bottom: 15px;
 }
 
+.blog-date {
+  font-size: 12px;
+  disprey: inline-block;
+}
+
 .category {
   display: inline-block;
   padding: 5px 8px;
@@ -143,11 +148,6 @@ main {
   background-color: #acabab;
   border-radius: 3px;
   line-height: 30px
-}
-
-.blog-date {
-  font-size: 12px;
-  display: inline-block;
 }
 
 .sidebar {
@@ -229,4 +229,74 @@ footer {
 
 .footer {
   color: #fff;
+}
+
+@media screen and (max-width:425px) {
+  
+  header {
+    width: 100%;
+  }
+  
+  .nav-list {
+    width: 100%;
+  }
+  
+  .nav-list-item {
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+  
+  .social {
+    display: none;
+  }
+  
+  .main-visual-content {
+    width: 100%;
+  }
+  
+  main {
+    width: 100%;
+    display: block;
+  }
+  
+  blog {
+    width: 100%;
+    margin: 0;
+  }
+  
+  .blog-box {
+    padding-left: 2%;
+    padding-right: 2px;
+  }
+  
+  .blog-image {
+    width: 49%;
+  }
+  
+  .box-text {
+    width: 49%;
+    padding-top: 5px;
+  }
+  
+  .sidebar {
+    width: 100%;
+  }
+  
+  .sidebar-contents {
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  
+  .instagram-box {
+    width: 48%;
+    padding-top: 48%;
+  }
+  
+  .instagram-box:nth-child(odd) {
+    margin-right: 4%;
+  }
+  
+  .padination {
+    margin-bottom: 50px;
+  }
 }
